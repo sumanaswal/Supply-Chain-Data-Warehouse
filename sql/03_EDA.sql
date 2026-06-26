@@ -160,6 +160,8 @@ WITH CustomerBase AS (
 RFM_Calculation AS (
 	SELECT 
 		customer_id,
+
+		-- MAX(order_date) is used but in production use CURRENT_DATE
 		EXTRACT(DAY FROM (SELECT MAX(order_date) FROM fact_orders) - last_purchase_date) AS recency_days,
 		total_orders,
 		total_spent

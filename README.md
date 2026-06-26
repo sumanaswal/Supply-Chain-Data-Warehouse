@@ -29,4 +29,4 @@ I architected an end-to-end data pipeline to solve these operational blind spots
 ## How to Run This Project
 1. Clone this repository.
 2. Download the raw DataCo dataset from Kaggle.
-3. Execute the SQL scripts in numerical order (01 through 08) in your PostgreSQL environment.
+3. Execute the SQL scripts in numerical order (01 through 04) in your PostgreSQL environment.

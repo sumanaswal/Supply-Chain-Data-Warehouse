@@ -78,7 +78,7 @@ CREATE TABLE dim_customers (
 	customer_id INT PRIMARY KEY,
 	customer_fname VARCHAR(50),
 	customer_lname VARCHAR(50),
-	customer_segmnet VARCHAR(50),
+	customer_segment VARCHAR(50),
 	customer_city VARCHAR(50),
 	customer_state VARCHAR(50),
 	customer_country VARCHAR(50),
